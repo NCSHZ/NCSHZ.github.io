@@ -1,0 +1,91 @@
+<html><head>
+<title>华链用户身份验证</title>
+<link rel="icon" href="http://www.huachain.net/public/favicon.ico" type="image/png">
+<style type="text/css">
+*{
+margin: 0;
+padding: 0;
+}
+div{
+position: absolute; 
+top: 50%; 
+left:50%; 
+margin: -150px 0 0 -150px; 
+width: 300px; 
+height: 300px;
+}
+input{
+width:298px;
+height:30px;
+border:1px solid black;
+margin-top:30px;
+}
+button{
+width:298px;
+height: 30px;
+border: 1px solid black;
+margin-top: 30px;
+box-sizing: content-box;
+border-radius: 10px;
+}
+img{
+vertical-align:middle;
+display:table-cell;
+text-align:center;
+margin:0 auto;
+width:250px;
+height:80px;
+}
+</style>
+</head><body>
+
+
+<body>
+<div class="">
+
+<img src="https://640564.freep.cn/640564/%E5%8D%8E%E9%93%BELOGO/%E5%8D%8E%E9%93%BELOGO(%E6%A8%AA%E7%89%88%E9%80%8F%E6%98%8E)-2.png"  />
+
+<form action="" method="post" name="form1">
+
+<br><tr>
+<td>
+登录账号:
+</td>
+<td>
+<input type="text" required="required" placeholder="输入用户名" value="" name="username">
+</td>
+</tr></br>
+
+<br><tr>
+<td>输入密码:</td>
+<td>
+<input type="password" required="required" placeholder="输入密码" value="" name="pd">
+</td>
+</tr></br>
+
+<br><tr>
+<td clospan="2">
+<input type="button" value="确定" name="cf" onclick="javascript:check()">
+</td>
+</tr></br>
+
+</form>
+<script language="javascript">
+function check()
+{
+ if(document.form1.username.value=="hua")
+{
+ if(document.form1.pd.value=="66668888")
+{
+ document.location="https://ncshz.github.io/HuachainNotice.html";
+}else{
+alert("对不起，密码错误!");
+}
+}else{
+alert("对不起，用户名错误!");
+}
+}
+</script>
+</div>
+</body>
+</html>
